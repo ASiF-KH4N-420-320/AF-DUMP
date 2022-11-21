@@ -1,11 +1,21 @@
-import os, platform
-try:
-    import requests
-except:
-    os.system('pip install requests')
+import os, platform, time
+
+ 
+
+os.system('pip install requests')
+
+ 
+
 os.system('git pull')
-import requests
-os.system('git pull')
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import music32
+
+ 
+
+print("\n\x1b[1;92m Congratulations Your Device Support This Tool\033[1;37m\n\n");time.sleep(3)
+
+ 
+
+from asifvvx import Main
+
+ 
+
+Main()
