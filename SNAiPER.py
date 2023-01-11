@@ -17,9 +17,6 @@ print('<------------------------------------>')
 bit = platform.architecture()[0]
 
 if bit=='64bit':
-print(f'{red}[•] Join Over Facebook Group {white}')
-
-    os.system('xdg-open https://facebook.com/groups/412423917720633//')    time.sleep(0.05)
 
     time.sleep(0.05)
 
